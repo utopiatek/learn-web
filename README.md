@@ -32,11 +32,10 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
     }
     ```
 * 表格
-| Name | Academy | score | 
-| - | :-: | -: | 
-| Harry Potter | Gryffindor| 90 | 
-| Hermione Granger | Gryffindor | 100 | 
-| Draco Malfoy | Slytherin | 90 |
+表头 | 表头
+------------- | -------------
+单元格内容 | 单元格内容
+单元格内容l | 单元格内容
 * 强调
     > _倾斜_，__加粗__
 * 转义
