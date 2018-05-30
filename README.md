@@ -1,5 +1,5 @@
 # LEARN-WEB
-Visual Studio Code、Markdown、Git、Github、React、Semantic UI
+Visual Studio Code、Markdown、Git、Bower、Github、React、Semantic UI
 
 ## 2018-05-30
 
@@ -58,3 +58,27 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
     > 点击“√”提交更改
 * 同步
     > 点击同步，输入账号密码，代码同步到GitHub
+
+### Bower
+* 类似于NuGet，用于管理各种依赖库
+* 在已经安装Git的前提下安装Bower插件
+* 新建.bowerrc文件，设置包管理路径
+```
+{
+    "directory": "lib"
+}
+```
+* 新建bower.json文件，配置依赖项
+```
+{
+    "name": "learn-web",
+    "private": true,
+    "dependencies": {
+        "react": "latest",
+        "babel": "latest",
+        "babel-standalone": "latest"
+    }
+}
+```
+* 安装依赖项
+> F1 >> Bower Install

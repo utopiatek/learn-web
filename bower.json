@@ -1,0 +1,9 @@
+{
+    "name": "learn-web",
+    "private": true,
+    "dependencies": {
+        "react": "latest",
+        "babel": "latest",
+        "babel-standalone": "latest"
+    }
+}
