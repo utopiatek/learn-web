@@ -32,10 +32,10 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
     }
     ```
 * 表格
-表头 | 表头
-------------- | -------------
-单元格内容 | 单元格内容
-单元格内容l | 单元格内容
+| ID | 姓名 | 年龄 | 
+| :- | :-: | -: |
+| 1 | Miaokit | 29 | 
+| 2 | Utopiatek | 2 |
 * 强调
     > _倾斜_，__加粗__
 * 转义
