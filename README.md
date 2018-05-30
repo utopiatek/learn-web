@@ -58,6 +58,10 @@ Visual Studio Code、Markdown、Git、Bower、Github、React、Semantic UI
     > 点击“√”提交更改
 * 同步
     > 点击同步，输入账号密码，代码同步到GitHub
+* 配置.gitignore文件
+```
+/lib/
+```
 
 ### Bower
 * 类似于NuGet，用于管理各种依赖库
@@ -80,5 +84,5 @@ Visual Studio Code、Markdown、Git、Bower、Github、React、Semantic UI
     }
 }
 ```
-* 安装依赖项
-> F1 >> Bower Install
+* 安装依赖项 `Bower Install`
+
