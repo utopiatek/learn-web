@@ -23,19 +23,18 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
 * 图片
     > ![图片](https://www.baidu.com/img/bd_logo1.png)
 * 代码框
-    > * 单行代码
-    > `printf("Hello World!");`
+    > * 单行代码 `printf("Hello World!");`
     > * 多行代码
-    > ```
+    ```
     for(int i = 0; i < 2; i++)
     {
         printf("Hello World!");
     }
-    > ```
+    ```
 * 表格
 |Tables|Are|Cool|
 |:--|:--|
-| col 3 is | right-aligned | $1600 |
+| col 3 is | right-aligned|left-aligned | $1600 |
 | col 2 is | centered | $12 |
 | zebra stripes | are neat | $1 |
 * 强调
