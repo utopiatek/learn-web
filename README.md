@@ -32,11 +32,11 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
     }
     ```
 * 表格
-|Tables|Are|Cool|
-|:--|:--|
-| col 3 is | right-aligned|left-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
+| Name | Academy | score | 
+| - | :-: | -: | 
+| Harry Potter | Gryffindor| 90 | 
+| Hermione Granger | Gryffindor | 100 | 
+| Draco Malfoy | Slytherin | 90 |
 * 强调
     > _倾斜_，__加粗__
 * 转义
