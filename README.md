@@ -7,36 +7,37 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
 
 ### Markdown
 * 标题
-    # 标题
+    > # 标题
 * 无序列表
-    * 第一项
-    * 第二项
+    > * 第一项
+    > * 第二项
 * 有序列表
-    1. 第一项
-    2. 第二项
+    > 1. 第一项
+    > 2. 第二项
 * 区块引用
     > 解释说明
 * 分割线
-    ---
+    > ---
 * 链接
-    [百度](https://www.baidu.com/)
+    > [百度](https://www.baidu.com/)
 * 图片
-    ![图片](https://www.baidu.com/img/bd_logo1.png)
+    > ![图片](https://www.baidu.com/img/bd_logo1.png)
 * 代码框
-    * 单行代码
-    'printf("Hello World!");'
-    * 多行代码
-    '''
+    > * 单行代码
+    > `printf("Hello World!");`
+    > * 多行代码
+    > ```
     for(int i = 0; i < 2; i++)
     {
         printf("Hello World!");
     }
-    '''
+    > ```
 * 表格
-    ID|姓名|年龄
-    -|-|-
-    0|Miaokit|29
-    1|Utopiatek|2
+|Tables|Are|Cool|
+|:--|:--|
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 * 强调
     > _倾斜_，__加粗__
 * 转义
