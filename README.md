@@ -3,11 +3,9 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
 
 ## 2018-05-30
 
-### Visual Studio Code
-
 ### Markdown
 * 标题
-    > # 标题
+    > #### 标题
 * 无序列表
     > * 第一项
     > * 第二项
@@ -48,11 +46,13 @@ Visual Studio Code、Markdown、Git、Github、React、Semantic UI
     > git clone repository-url local-path
 * 配置GIT用户信息
     > git config --global user.name "name"
+
     > git config --global user.email "email"
 * 修改文件
     > 被修改文件会有“M”已修改标志，点击“M”显示修改前后对比
 * 暂存更改
     > 点击放弃更改相当于撤销
+    
     > 点击“+”号暂存更改，点击“-”号取消暂存更改
 * 提交更改
     > 点击“√”提交更改
