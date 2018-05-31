@@ -4,6 +4,8 @@
     "dependencies": {
         "react": "latest",
         "babel": "latest",
-        "babel-standalone": "latest"
+        "babel-standalone": "latest",
+        "jquery": "latest",
+        "semantic-ui": "latest"
     }
 }

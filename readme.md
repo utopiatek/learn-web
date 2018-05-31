@@ -60,6 +60,7 @@ Visual Studio Code、Markdown、Git、Bower、Github、React、Semantic UI
     > 点击同步，输入账号密码，代码同步到GitHub
 * 配置.gitignore文件
 ```
+/.vscode/
 /lib/
 ```
 
@@ -80,9 +81,37 @@ Visual Studio Code、Markdown、Git、Bower、Github、React、Semantic UI
     "dependencies": {
         "react": "latest",
         "babel": "latest",
-        "babel-standalone": "latest"
+        "babel-standalone": "latest",
+        "jquery": "latest",
+        "semantic-ui": "latest"
     }
 }
 ```
 * 安装依赖项 `Bower Install`
 
+## 2018-05-31
+
+### index.html
+* 输入html，选择Simple HTML5 starting point，生成页面模板
+* 引用脚本
+```
+<link rel="stylesheet" href="../lib/semantic-ui/dist/semantic.min.css" />
+<script src="../lib/jquery/dist/jquery.min.js"></script>
+<script src="../lib/semantic-ui/dist/semantic.min.js"></script>
+``` 
+* 调试配置文件Chrome: Launch
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:8080",
+            "file": "${workspaceRoot}/src/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
+```
